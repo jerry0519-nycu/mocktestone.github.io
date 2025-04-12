@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Test: 113學測英文試卷</title>
+  <style>
+    /* 保持原有CSS樣式不變 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .quiz-section {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .question {
+      margin-bottom: 15px;
+    }
+    .cloze-passage {
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 5px solid #2980b9;
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-left: 20px;
+    }
+    select {
+      margin-left: 10px;
+    }
+    .blank {
+      font-weight: bold;
+      color: #e74c3c;
+    }
+    #result {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px dashed #333;
+    }
+    #answerKey {
+      margin-top: 20px;
+      padding: 10px;
+      background: #eef;
+    }
+  </style>
+</head>
+<body>
+  <h1>113學年度學科能力測驗英文考科模擬試題</h1>
+
+  <form id="quiz">
+    <!-- 一、詞彙題（占10分） -->
+    <div class="quiz-section">
+      <h2>一、詞彙題（占10分）</h2>
+
+      <!-- 題1 -->
+      <div class="question">
+        <p>1. The magician's ______ performance left the audience in awe, wondering how the tricks were done.</p>
+        <label><input type="radio" name="q1" value="A"> ambiguous</label>
+        <label><input type="radio" name="q1" value="B"> ingenious</label>
+        <label><input type="radio" name="q1" value="C"> tedious</label>
+        <label><input type="radio" name="q1" value="D"> hostile</label>
+      </div>
+      
+      <!-- 題2 -->
+      <div class="question">
+        <p>2. To reduce plastic waste, many stores now encourage customers to bring their own ______ bags.</p>
+        <label><input type="radio" name="q2" value="A"> disposable</label>
+        <label><input type="radio" name="q2" value="B"> reusable</label>
+        <label><input type="radio" name="q2" value="C"> fragile</label>
+        <label><input type="radio" name="q2" value="D"> transparent</label>
+      </div>
+      
+      <!-- 題3 -->
+      <div class="question">
+        <p>3. Scientists are trying to ______ the effectiveness of the new vaccine through clinical trials.</p>
+        <label><input type="radio" name="q3" value="A"> evaluate</label>
+        <label><input type="radio" name="q3" value="B"> postpone</label>
+        <label><input type="radio" name="q3" value="C"> simplify</label>
+        <label><input type="radio" name="q3" value="D"> exaggerate</label>
+      </div>
+      
+      <!-- 題4 -->
+      <div class="question">
+        <p>4. The library requires visitors to maintain ______ so that others can concentrate on reading.</p>
+        <label><input type="radio" name="q4" value="A"> silence</label>
+        <label><input type="radio" name="q4" value="B"> decoration</label>
+        <label><input type="radio" name="q4" value="C"> temperature</label>
+        <label><input type="radio" name="q4" value="D"> schedule</label>
+      </div>
+      
+      <!-- 題5 -->
+      <div class="question">
+        <p>5. She completed the task ______, finishing it two days ahead of the deadline.</p>
+        <label><input type="radio" name="q5" value="A"> efficiently</label>
+        <label><input type="radio" name="q5" value="B"> randomly</label>
+        <label><input type="radio" name="q5" value="C"> reluctantly</label>
+        <label><input type="radio" name="q5" value="D"> vaguely</label>
+      </div>
+      
+      <!-- 題6 -->
+      <div class="question">
+        <p>6. His explanation was so ______ that everyone understood the complex theory immediately.</p>
+        <label><input type="radio" name="q6" value="A"> ambiguous</label>
+        <label><input type="radio" name="q6" value="B"> explicit</label>
+        <label><input type="radio" name="q6" value="C"> redundant</label>
+        <label><input type="radio" name="q6" value="D"> obsolete</label>
+      </div>
+      
+      <!-- 題7 -->
+      <div class="question">
+        <p>7. The government plans to ______ new environmental regulations to reduce carbon emissions.</p>
+        <label><input type="radio" name="q7" value="A"> abolish</label>
+        <label><input type="radio" name="q7" value="B"> implement</label>
+        <label><input type="radio" name="q7" value="C"> criticize</label>
+        <label><input type="radio" name="q7" value="D"> postpone</label>
+      </div>
+      
+      <!-- 題8 -->
+      <div class="question">
+        <p>8. The main ______ of the conference was climate change and its impact on coastal cities.</p>
+        <label><input type="radio" name="q8" value="A"> agenda</label>
+        <label><input type="radio" name="q8" value="B"> benefit</label>
+        <label><input type="radio" name="q8" value="C"> obstacle</label>
+        <label><input type="radio" name="q8" value="D"> resource</label>
+      </div>
+      
+      <!-- 題9 -->
+      <div class="question">
+        <p>9. The novel’s ______ plot, full of unexpected twists, attracted many readers.</p>
+        <label><input type="radio" name="q9" value="A"> mundane</label>
+        <label><input type="radio" name="q9" value="B"> intricate</label>
+        <label><input type="radio" name="q9" value="C"> transparent</label>
+        <label><input type="radio" name="q9" value="D"> spontaneous</label>
+      </div>
+      
+      <!-- 題10 -->
+      <div class="question">
+        <p>10. Due to budget issues, the committee decided to ______ the project until next year.</p>
+        <label><input type="radio" name="q10" value="A"> carry out</label>
+        <label><input type="radio" name="q10" value="B"> put off</label>
+        <label><input type="radio" name="q10" value="C"> give up</label>
+        <label><input type="radio" name="q10" value="D"> look into</label>
+      </div>
+    </div>
+    
+    <!-- 二、綜合測驗（占10分） -->
+    <div class="quiz-section">
+      <h2>二、綜合測驗（占10分）</h2>
+      <!-- 題組一（第11-15題），以 radio 方式呈現 -->
+      <div class="cloze-passage">
+        <p>The transformation of workplace dynamics in the post-pandemic era has been nothing short of revolutionary. As organizations worldwide __11__ hybrid work models, managers are redefining traditional supervision methods. Studies indicate that 63% of remote employees feel more focused without office distractions, __12__ nearly 40% report difficulties in unplugging after work hours—a phenomenon termed "digital leash syndrome." Interestingly, tracking software data __13__ initial concerns about productivity drops; analysis reveals a 22% increase in output across tech sectors. Nevertheless, human resource departments face unprecedented challenges: weekly virtual team-building sessions have become essential to combat employees' sense of __14__, while AI-driven mental health platforms are being integrated into corporate benefits packages. __15__ the complexity of these changes, industry leaders predict that flexible work arrangements will account for 70% of global job structures by 2030.</p>
+      </div>
+      
+      <div class="question">
+        <p>11. Choose one option:</p>
+        <label><input type="radio" name="q11" value="A"> (A) resist</label>
+        <label><input type="radio" name="q11" value="B"> (B) implement</label>
+        <label><input type="radio" name="q11" value="C"> (C) criticize</label>
+        <label><input type="radio" name="q11" value="D"> (D) simplify</label>
+      </div>
+      <div class="question">
+        <p>12. Choose one option:</p>
+        <label><input type="radio" name="q12" value="A"> (A) whereas</label>
+        <label><input type="radio" name="q12" value="B"> (B) moreover</label>
+        <label><input type="radio" name="q12" value="C"> (C) subsequently</label>
+        <label><input type="radio" name="q12" value="D"> (D) specifically</label>
+      </div>
+      <div class="question">
+        <p>13. Choose one option:</p>
+        <label><input type="radio" name="q13" value="A"> (A) has reinforced</label>
+        <label><input type="radio" name="q13" value="B"> (B) had dismissed</label>
+        <label><input type="radio" name="q13" value="C"> (C) is contradicting</label>
+        <label><input type="radio" name="q13" value="D"> (D) will revolutionize</label>
+      </div>
+      <div class="question">
+        <p>14. Choose one option:</p>
+        <label><input type="radio" name="q14" value="A"> (A) accomplishment</label>
+        <label><input type="radio" name="q14" value="B"> (B) alienation</label>
+        <label><input type="radio" name="q14" value="C"> (C) enthusiasm</label>
+        <label><input type="radio" name="q14" value="D"> (D) curiosity</label>
+      </div>
+      <div class="question">
+        <p>15. Choose one option:</p>
+        <label><input type="radio" name="q15" value="A"> (A) Regardless of</label>
+        <label><input type="radio" name="q15" value="B"> (B) In addition to</label>
+        <label><input type="radio" name="q15" value="C"> (C) On account of</label>
+        <label><input type="radio" name="q15" value="D"> (D) Contrary to</label>
+      </div>
+      
+      <!-- 題組二（第16-20題），以 radio 呈現 -->
+      <div class="cloze-passage" style="margin-top:30px;">
+        <p>The global transition to renewable energy presents a paradoxical landscape of progress and obstacles. Solar farms, while __16__ nearly limitless sunlight, require land areas equivalent to small countries—a critical issue for densely populated regions. Wind energy, though promising, faces geographical constraints: optimal turbine locations often __17__ migratory bird paths, sparking ecological debates. Battery technology, despite recent breakthroughs, remains prohibitively expensive when __18__ conventional coal plants' operational costs. Furthermore, the __19__ power generation patterns of renewables demand real-time grid adjustments that existing infrastructure struggles to accommodate. Environmental economists emphasize that achieving carbon neutrality will require __20__ approach combining technological innovation, policy reform, and behavioral changes.</p>
+      </div>
+      
+      <div class="question">
+        <p>16. Choose one option:</p>
+        <label><input type="radio" name="q16" value="A"> (A) harnessing</label>
+        <label><input type="radio" name="q16" value="B"> (B) reflecting</label>
+        <label><input type="radio" name="q16" value="C"> (C) depleting</label>
+        <label><input type="radio" name="q16" value="D"> (D) ignoring</label>
+      </div>
+      <div class="question">
+        <p>17. Choose one option:</p>
+        <label><input type="radio" name="q17" value="A"> (A) overlap with</label>
+        <label><input type="radio" name="q17" value="B"> (B) deviate from</label>
+        <label><input type="radio" name="q17" value="C"> (C) enhance</label>
+        <label><input type="radio" name="q17" value="D"> (D) replace</label>
+      </div>
+      <div class="question">
+        <p>18. Choose one option:</p>
+        <label><input type="radio" name="q18" value="A"> (A) compared to</label>
+        <label><input type="radio" name="q18" value="B"> (B) combined with</label>
+        <label><input type="radio" name="q18" value="C"> (C) isolated from</label>
+        <label><input type="radio" name="q18" value="D"> (D) prioritized over</label>
+      </div>
+      <div class="question">
+        <p>19. Choose one option:</p>
+        <label><input type="radio" name="q19" value="A"> (A) predictable</label>
+        <label><input type="radio" name="q19" value="B"> (B) erratic</label>
+        <label><input type="radio" name="q19" value="C"> (C) consistent</label>
+        <label><input type="radio" name="q19" value="D"> (D) negligible</label>
+      </div>
+      <div class="question">
+        <p>20. Choose one option:</p>
+        <label><input type="radio" name="q20" value="A"> (A) a fragmented</label>
+        <label><input type="radio" name="q20" value="B"> (B) an obsolete</label>
+        <label><input type="radio" name="q20" value="C"> (C) a holistic</label>
+        <label><input type="radio" name="q20" value="D"> (D) a speculative</label>
+      </div>
+    </div>
+    
+    <!-- 三、文意選填（占10分） -->
+    <div class="quiz-section">
+      <h2>三、文意選填（占10分）</h2>
+      <div class="cloze-passage">
+        <p>Water makes up more than half of our body weight. To sustain this amount of fluid in our bodies, plain water is considered our best choice, for it contains no sugar and no calories. Yet, is water always the healthiest drink we can __21__? Well, it depends on who and where we are, and what we’re doing.</p>
+        <p>Obviously, a physically __22__ person with an outdoor job under the sun will need to drink more fluid than a desk-bound person who lives and works in an air-conditioned place. But there’s more to it than that. When a person sweats, he loses water and salt, so he needs to replace both. Replacing lost fluid with just plain water means the body has too much water and not enough salt. To __23__ things out, the body will get rid of water by producing urine.</p>
+        <p>For this reason, milk can actually be more __24__ than drinking water. Milk naturally contains salt and lactose, a sugar which the human body needs in small amounts to help stimulate water __25__. Coconut water, which contains salt and carbohydrates, is also more functional than water at restoring and maintaining a normal fluid __26__ after exercise.</p>
+        <p>For the average person, however, water remains a very good __27__ for keeping hydrated—if you know how to drink it. The secret is: Never wait until the body is telling you you’re thirsty, since there must already have been significant changes in your body for it to eventually __28__ your consciousness. At that point, it might be well past the best moment to take in fluid. Also, drinking a lot of liquid in one go can cause more water to __29__ the body quickly and come out as urine. To __30__ this, you need to drink water throughout the day to maintain your hydration levels.</p>
+      </div>
+      <div class="question">
+        <p>選項：</p>
+        <p>(A) absorption &nbsp;&nbsp; (B) active &nbsp;&nbsp; (C) alert &nbsp;&nbsp; (D) combat &nbsp;&nbsp; (E) option</p>
+        <p>(F) effective &nbsp;&nbsp; (G) even &nbsp;&nbsp; (H) status &nbsp;&nbsp; (I) pass through &nbsp;&nbsp; (J) reach for</p>
+      </div>
+      <!-- 加入下拉選單作答 (q21 ~ q30) -->
+      <div class="question">
+        <p>21. <select name="q21">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>22. <select name="q22">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>23. <select name="q23">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>24. <select name="q24">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>25. <select name="q25">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>26. <select name="q26">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>27. <select name="q27">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>28. <select name="q28">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>29. <select name="q29">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+      <div class="question">
+        <p>30. <select name="q30">
+          <option value="">--請選擇--</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+        </select></p>
+      </div>
+    </div>
+    
+    <!-- 四、篇章結構（占8分） -->
+    <div class="quiz-section">
+      <h2>四、篇章結構（占8分）</h2>
+      <div class="reading-passage">
+        <p>Synesthesia, a neurological phenomenon where senses intertwine, has fascinated scientists for decades. Imagine tasting colors when hearing music or seeing numbers in specific hues—this is daily reality for synesthetes. __31__ Early researchers dismissed these experiences as mere imagination, but modern brain imaging confirms distinct neural pathways activation.</p>
+        <p>Recent studies reveal synesthesia's genetic links. About 40% of synesthetes have relatives with similar perceptions, suggesting inherited traits. __32__ Environmental factors also play roles: childhood exposure to colored alphabet toys correlates with higher letter-color synesthesia rates.</p>
+        <p>The condition's practical implications are surprising. __33__ Graphic designers with grapheme-color synesthesia often create exceptionally harmonious color schemes. Conversely, some report sensory overload in crowded environments where multiple stimuli trigger conflicting perceptions.</p>
+        <p>__34__ Neuroscientists now use synesthesia to study consciousness itself. As one researcher notes, "Understanding how brains blend senses could revolutionize treatments for sensory impairments." This cross-wiring of perceptions, once considered a quirk, is reshaping our grasp of human cognition.</p>
+      </div>
+      <div class="question">
+        <p>選項：</p>
+        <p>(A) This genetic predisposition doesn't tell the whole story.</p>
+        <p>(B) Such findings challenge traditional views on artistic talent.</p>
+        <p>(C) For centuries, these perceptions were thought to be metaphorical expressions.</p>
+        <p>(D) Beyond academic interest, synesthesia has profound research value.</p>
+      </div>
+      <div class="question">
+        <p>31. <select name="q31">
+            <option value="">--請選擇--</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select></p>
+        <p>32. <select name="q32">
+            <option value="">--請選擇--</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select></p>
+        <p>33. <select name="q33">
+            <option value="">--請選擇--</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select></p>
+        <p>34. <select name="q34">
+            <option value="">--請選擇--</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select></p>
+      </div>
+    </div>
+    
+    <!-- 五、閱讀測驗（占24分） -->
+    <div class="quiz-section">
+      <h2>五、閱讀測驗（占24分）</h2>
+      <!-- 題組一：文章一「深海熱泉生態系的生存之謎」 -->
+      <div class="reading-passage">
+        <h3>文章一：深海熱泉生態系的生存之謎</h3>
+        <p>In the crushing darkness of the ocean's abyssal zone, hydrothermal vents erupt like underwater geysers, spewing superheated water laden with toxic chemicals. These volcanic chimneys, discovered in 1977, overturned fundamental biological assumptions by hosting vibrant ecosystems entirely independent of sunlight. Giant tube worms (Riftia pachyptila) dominate these landscapes, their crimson plumes absorbing hydrogen sulfide—a substance fatal to most life forms. Symbiotic bacteria within the worms' tissues perform chemosynthesis, converting the toxic chemicals into organic matter. This process forms the base of a food web supporting eyeless shrimp, ghostly octopuses, and armored snails with iron-clad shells.</p>
+        <p>Recent discoveries reveal these communities operate on geological timelines. Vent fields wax and wane with magmatic activity, their lifespans rarely exceeding a few decades. During dormant phases, species enter cryptobiosis—a death-like suspended state—preserving DNA repair mechanisms far superior to surface-dwelling organisms. Genetic sequencing shows vent creatures share ancient ancestry with shallow-water species, suggesting repeated colonization events over 500 million years. Some biologists hypothesize that life itself may have originated in such extreme environments before migrating to sunlit realms.</p>
+        <p>The implications extend beyond Earth. NASA's Europa Clipper mission, scheduled to probe Jupiter's icy moon, carries instruments specifically designed to detect chemosynthetic biosignatures. "What we learn here directly informs our search for life in extraterrestrial oceans," says Dr. Mariko Hara, lead researcher at the Japan Agency for Marine-Earth Science and Technology. Meanwhile, biotechnology firms are patenting heat-resistant enzymes from vent microbes for industrial applications ranging from waste processing to CRISPR gene-editing tools.</p>
+      </div>
+      <div class="question">
+        <p>35. What is the primary focus of the third paragraph?</p>
+        <label><input type="radio" name="q35" value="A"> Geological cycles of vent ecosystems</label>
+        <label><input type="radio" name="q35" value="B"> Commercial applications of vent research</label>
+        <label><input type="radio" name="q35" value="C"> Evolutionary origins of marine life</label>
+        <label><input type="radio" name="q35" value="D"> Space exploration implications</label>
+      </div>
+      <div class="question">
+        <p>36. What makes the ecosystem around hydrothermal vents unique compared to most other marine environments?</p>
+        <label><input type="radio" name="q36" value="A"> The presence of light-dependent organisms</label>
+        <label><input type="radio" name="q36" value="B"> Its complete reliance on photosynthesis</label>
+        <label><input type="radio" name="q36" value="C"> Life thrives without sunlight through chemosynthesis</label>
+        <label><input type="radio" name="q36" value="D"> Its organisms breathe oxygen from the water</label>
+      </div>
+      <div class="question">
+        <p>37. According to the passage, what allows vent species to survive during dormant periods?</p>
+        <label><input type="radio" name="q37" value="A"> Migration to warmer regions</label>
+        <label><input type="radio" name="q37" value="B"> Use of stored food from chemosynthesis</label>
+        <label><input type="radio" name="q37" value="C"> Entering a suspended state with advanced DNA repair</label>
+        <label><input type="radio" name="q37" value="D"> Mutual protection among species</label>
+      </div>
+      <div class="question">
+        <p>38. What can be inferred about the potential origin of life based on vent ecosystems?</p>
+        <label><input type="radio" name="q38" value="A"> Life began on dry land and moved to the ocean</label>
+        <label><input type="radio" name="q38" value="B"> Sunlight was always essential to the first life forms</label>
+        <label><input type="radio" name="q38" value="C"> Extreme environments may have been the cradle of life</label>
+        <label><input type="radio" name="q38" value="D"> Chemosynthesis is a recent evolutionary adaptation</label>
+      </div>
+      
+      <!-- 題組二：文章二「語言消亡與文化保存的拉鋸戰」 -->
+      <div class="reading-passage">
+        <h3>文章二：語言消亡與文化保存的拉鋸戰</h3>
+        <p>When 85-year-old Boa Sr passed away in 2010, she took with her the last living knowledge of the Bo language—an ancient tongue from India's Andaman Islands that encoded unique perceptions of tidal patterns and medicinal plants. This tragic loss epitomizes a global crisis: UNESCO estimates 40% of the world's 7,000 languages risk extinction by century's end. The Hanuno'o script of the Philippines, for instance, uses syllabic symbols doubling as agricultural calendars, while Bolivia's Kallawaya language contains encoded medical knowledge from pre-Incan civilizations.</p>
+        <p>Modern preservation efforts employ paradoxical strategies. In Wales, smartphone apps teach Welsh through augmented reality games overlaying virtual dragons on countryside landscapes. The Māori "language nests" (kōhanga reo) have been remarkably successful, increasing native speakers from 5,000 to 130,000 through total-immersion preschools. However, traditionalists decry the loss of ceremonial vocabulary replaced by tech neologisms—the Māori word for "computer" (rorohiko) literally means "lightning brain," diverging from ancestral cosmology.</p>
+        <p>Economic pressures intensify the dilemma. In Papua New Guinea, parents increasingly prioritize English and Tok Pisin for children's job prospects, despite 850 indigenous languages still being spoken. Cognitive scientists counter this by demonstrating that multilingual individuals exhibit enhanced problem-solving skills and delayed dementia onset. The Rosetta Project, a global initiative, has micro-etched 13,000 pages of linguistic data onto nickel disks designed to survive millennia—a digital Dead Sea Scrolls for future civilizations.</p>
+      </div>
+      <div class="question">
+        <p>39. The author mentions the Māori word for "computer" primarily to:</p>
+        <label><input type="radio" name="q39" value="A"> Illustrate language modernization trade-offs</label>
+        <label><input type="radio" name="q39" value="B"> Demonstrate Māori technological prowess</label>
+        <label><input type="radio" name="q39" value="C"> Criticize traditionalist resistance</label>
+        <label><input type="radio" name="q39" value="D"> Highlight translation challenges</label>
+      </div>
+      <div class="question">
+        <p>40. What is the main concern raised by traditionalists regarding language preservation?</p>
+        <label><input type="radio" name="q40" value="A"> Lack of support from governments</label>
+        <label><input type="radio" name="q40" value="B"> Inability to teach younger generations</label>
+        <label><input type="radio" name="q40" value="C"> The replacement of sacred terms with modern ones</label>
+        <label><input type="radio" name="q40" value="D"> The difficulty of printing native scripts</label>
+      </div>
+      <div class="question">
+        <p>41. What does the Rosetta Project aim to achieve?</p>
+        <label><input type="radio" name="q41" value="A"> Reconstruct dead languages using AI</label>
+        <label><input type="radio" name="q41" value="B"> Store linguistic knowledge for future generations</label>
+        <label><input type="radio" name="q41" value="C"> Translate major languages into indigenous ones</label>
+        <label><input type="radio" name="q41" value="D"> Create a universal script for endangered languages</label>
+      </div>
+      <div class="question">
+        <p>42. What is one <em>positive</em> cognitive effect of multilingualism mentioned in the passage?</p>
+        <label><input type="radio" name="q42" value="A"> Better pronunciation skills</label>
+        <label><input type="radio" name="q42" value="B"> Increased earnings in international jobs</label>
+        <label><input type="radio" name="q42" value="C"> Improved memory and delayed dementia</label>
+        <label><input type="radio" name="q42" value="D"> Higher success in language acquisition tests</label>
+      </div>
+      
+      <!-- 題組三：文章三「量子運算的突破與資安危機」 -->
+      <div class="reading-passage">
+        <h3>文章三：量子運算的突破與資安危機</h3>
+        <p>Google's 2019 quantum supremacy experiment marked a computational watershed. Their 53-qubit Sycamore processor solved in 200 seconds a problem estimated to take Summit (then the world's fastest supercomputer) 10,000 years. This milestone promises revolutionary applications: simulating complex molecular interactions for drug discovery, optimizing global logistics networks, and cracking mathematical problems unsolvable since Euclid's era. However, it also sounds alarms for cybersecurity—RSA encryption, the bedrock of online transactions, could be rendered obsolete overnight by sufficiently advanced quantum systems.</p>
+        <p>The cryptographic arms race has commenced. The U.S. National Institute of Standards and Technology (NIST) is standardizing post-quantum algorithms based on lattice mathematics, while China's Micius satellite network pioneers quantum key distribution (QKD) using entangled photons. Early adopters like Swiss banks report 90% cost increases implementing QKD infrastructure—a prohibitive barrier for developing nations. Meanwhile, quantum sensors achieve picometer precision, enabling undetectable eavesdropping techniques that could bypass conventional security protocols.</p>
+        <p>Ethical quandaries proliferate. Military analysts warn of "quantum Pearl Harbor" scenarios where hostile states decrypt entire government databases. Conversely, quantum computing could model climate systems with unprecedented accuracy, potentially saving millions from natural disasters. The global scientific community urges replication of CERN-style international governance frameworks, though political tensions threaten to fragment quantum research into competing blocs. As Dr. Michio Kaku observes, "We're playing with fire that could either light humanity's way or burn civilization to ashes."</p>
+      </div>
+      <div class="question">
+        <p>43. What does the "quantum Pearl Harbor" scenario refer to?</p>
+        <label><input type="radio" name="q43" value="A"> Climate modeling breakthroughs</label>
+        <label><input type="radio" name="q43" value="B"> Encryption system collapse</label>
+        <label><input type="radio" name="q43" value="C"> Satellite communication hijacking</label>
+        <label><input type="radio" name="q43" value="D"> Pharmaceutical patent disputes</label>
+      </div>
+      <div class="question">
+        <p>44. Why are quantum computers a threat to current cybersecurity systems?</p>
+        <label><input type="radio" name="q44" value="A"> They spread malware faster than classical computers</label>
+        <label><input type="radio" name="q44" value="B"> They can easily break encryption like RSA</label>
+        <label><input type="radio" name="q44" value="C"> They allow hackers to remain completely anonymous</label>
+        <label><input type="radio" name="q44" value="D"> They reduce the cost of cyber attacks</label>
+      </div>
+      <div class="question">
+        <p>45. What challenge is associated with implementing Quantum Key Distribution (QKD)?</p>
+        <label><input type="radio" name="q45" value="A"> It has been banned by international treaties</label>
+        <label><input type="radio" name="q45" value="B"> It’s not compatible with current computers</label>
+        <label><input type="radio" name="q45" value="C"> It requires extremely expensive infrastructure</label>
+        <label><input type="radio" name="q45" value="D"> It causes data loss in transmission</label>
+      </div>
+      <div class="question">
+        <p>46. What solution is proposed to manage the ethical risks of quantum technology?</p>
+        <label><input type="radio" name="q46" value="A"> Complete bans on quantum research</label>
+        <label><input type="radio" name="q46" value="B"> Global cooperation through CERN-style governance</label>
+        <label><input type="radio" name="q46" value="C"> Encouraging military competition</label>
+        <label><input type="radio" name="q46" value="D"> Limiting quantum access to wealthy nations</label>
+      </div>
+    </div>
+
+    <!-- 提交按鈕 -->
+    <div class="quiz-section">
+      <button type="submit">提交考卷</button>
+    </div>
+    
+  </form>
+
+  <!-- 顯示結果區 -->
+  <div id="result"></div>
+  <!-- 顯示完整答案鍵 -->
+  <div id="answerKey"></div>
+
+  <script>
+    // 定義所有題目的正確答案
+    const answerKey = {
+      // 一、詞彙題
+      q1: "B",
+      q2: "B",
+      q3: "A",
+      q4: "A",
+      q5: "A",
+      q6: "B",
+      q7: "B",
+      q8: "A",
+      q9: "B",
+      q10: "B",
+      // 二、綜合測驗 (題組一: q11-15)
+      q11: "B",
+      q12: "A",
+      q13: "A",
+      q14: "B",
+      q15: "A",
+      // 二、綜合測驗 (題組二: q16-20)
+      q16: "A",
+      q17: "A",
+      q18: "A",
+      q19: "B",
+      q20: "C",
+      // 三、文意選填 (q21-30)
+      q21: "J",
+      q22: "B",
+      q23: "G",
+      q24: "F",
+      q25: "A",
+      q26: "H",
+      q27: "E",
+      q28: "C",
+      q29: "I",
+      q30: "D",
+      // 四、篇章結構 (q31-34)
+      q31: "C",
+      q32: "A",
+      q33: "B",
+      q34: "D",
+      // 五、閱讀測驗
+      // 題組一：文章一
+      q35: "D",
+      q36: "C",
+      q37: "C",
+      q38: "C",
+      // 題組二：文章二
+      q39: "A",
+      q40: "C",
+      q41: "B",
+      q42: "C",
+      // 題組三：文章三
+      q43: "B",
+      q44: "B",
+      q45: "C",
+      q46: "B"
+    };
+
+    // 取得題目數目（依據 answerKey 的 key 數量）
+    const totalQuestions = Object.keys(answerKey).length;
+
+    document.getElementById("quiz").addEventListener("submit", function(event) {
+      event.preventDefault(); // 避免表單提交後頁面重整
+
+      // 取得所有答案並檢查是否每題皆有作答
+      let userAnswers = {};
+      let unanswered = [];
+      for (let key in answerKey) {
+        // 針對 radio 與 select 元件皆檢查
+        let elems = document.getElementsByName(key);
+        let answer = "";
+        if (elems.length > 0) {
+          if (elems[0].type === "radio") {
+            let checked = Array.from(elems).find(r => r.checked);
+            answer = checked ? checked.value : "";
+          } else if (elems[0].tagName.toLowerCase() === "select") {
+            answer = elems[0].value;
+          }
+        }
+        if (!answer) {
+          unanswered.push(key);
+        }
+        userAnswers[key] = answer;
+      }
+
+
+      // 檢查答案，收集錯誤的題目及正確答案
+      let wrongAnswers = [];
+      for (let key in answerKey) {
+        if (userAnswers[key] !== answerKey[key]) {
+          wrongAnswers.push(`題 ${key.slice(1)}：正確答案 ${answerKey[key]}`);
+        }
+      }
+
+      // 顯示結果
+      let resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = ""; // 清空上次結果
+      if (wrongAnswers.length === 0) {
+        resultDiv.innerHTML = "<h3>全部正確！</h3>";
+      } else {
+        resultDiv.innerHTML = "<h3>以下題目答錯：</h3><ul><li>" + wrongAnswers.join("</li><li>") + "</li></ul>";
+      }
+
+      // 顯示完整答案鍵
+      let answerKeyDiv = document.getElementById("answerKey");
+      let answerList = [];
+      for (let key in answerKey) {
+        answerList.push(`題 ${key.slice(1)}：${answerKey[key]}`);
+      }
+      answerKeyDiv.innerHTML = "<h3>完整答案鍵：</h3><p>" + answerList.join("， ") + "</p>";
+    });
+  </script>
+</body>
+</html>
